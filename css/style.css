@@ -1,0 +1,105 @@
+@font-face {
+    font-family: ap;
+    src: url(../fonts/AP.ttf);
+}
+
+body {
+    margin-right: auto;
+    margin-left : auto;
+    text-align: center;
+    
+    height: 98vh;
+    width: min(98vw, 1000px);
+    padding: 0%;
+}
+
+div {
+    margin: 0px;
+}
+
+label {
+    font-family: ap;
+    font-size: min(10vw, 5vh);
+    color: #644;
+    display: block;
+    text-align: center;
+}
+
+button {
+    font-family: ap;
+    font-size: min(10vw, 5vh);
+    padding: 2%;
+    margin: min(1.5vw, 15px);
+    display: inline-block;
+    color: #fff;
+    border: #ffffff dashed 1px;
+    box-shadow: 0 0 0 min(1vw, 10px) #996666;
+    border-radius: min(1vw, 10px);
+    background-color: #996666;
+    cursor: pointer;
+}
+button:active {
+    box-shadow: 0 0 0 min(1vw, 10px) #cc8888;
+    background-color: #cc8888;
+}
+
+#top-space {
+    height: 3%;
+}
+#message {
+    height: 10%;
+}
+#image-area {
+    text-align: center;
+    height: 30%;
+}
+#button-area {
+    margin-top: 3%;
+    text-align: center;
+    height: 30%;
+    width: 100%;
+}
+
+#to-title-area {
+    margin-top: 3%;
+    height: 20%;
+    text-align: center;
+}
+
+.menu-button {
+    margin-top: 1vh;
+    height: auto;
+    font-size: min(10vw, 5vh);
+    width: 80%;
+}
+
+#image-area > Img {
+    width: auto;
+    height: 100%;
+}
+
+#next-button-area {
+    width: 100%;
+    text-align: center;
+}
+#next-button-area > button {
+    width: 80%;
+    display: inline-block;
+}
+
+#option-area {
+    height: 100%;
+}
+#option-area > button {
+    box-shadow: 0 0 0 min(1vw, 10px) #3355ff;
+    background-color: #3355ff;
+}
+#option-area > button:active {
+    box-shadow: 0 0 0 min(1vw, 10px) #5588ff;
+    background-color: #5588ff;
+}
+#option-area > label {
+    font-family: ap;
+    font-size: min(12vw, 6vh);
+    color: #444;
+}
